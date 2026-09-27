@@ -1,0 +1,14 @@
+[package]
+name = "brainfuck"
+version = "0.1.0"
+edition = "2021"
+description = "A small, educational Brainfuck interpreter"
+license = "MIT"
+
+[lib]
+name = "brainfuck"
+path = "src/lib.rs"
+
+[[bin]]
+name = "brainfuck"
+path = "src/main.rs"
